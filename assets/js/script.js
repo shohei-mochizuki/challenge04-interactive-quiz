@@ -5,7 +5,7 @@ let sortedValueArray = []; // Sorted array to store scores (high score first)
 
 let userInitial;
 let score;
-const numberHStoShow = 3; // Number of top scorers to show (*** Feel free to modify!)
+const numberHStoShow = 5; // Number of top scorers to show (*** Feel free to modify!)
 
 let questions = { // Questions (*** Feel free to add/delete/modify!)
   "HTML means _____": // Question 1
@@ -28,9 +28,9 @@ let maxPoint = Object.keys(questions).length; // Total number of questions = Max
 let questionNo; // Question number/index (0, 1, 2...)
 
 let timer // setInterval function (defined globally to be available to all functions)
-const timeGiven = 30 // How many seconds to be given to users (*** Feel free to modify!)
+const timeGiven = 60 // How many seconds to be given to users (*** Feel free to modify!)
 let timeLeft; // Remaining seconds
-const timeSubtract = 5; // How many seconds to be subtracted for wrong answers (*** Feel free to modify!)
+const timeSubtract = 10; // How many seconds to be subtracted for wrong answers (*** Feel free to modify!)
 
 
 // This function shows the start page
