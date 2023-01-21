@@ -31,9 +31,10 @@ https://shohei-mochizuki.github.io/challenge04-interactive-quiz/
 
 ## Screenshots of the page
 
-![image](https://user-images.githubusercontent.com/121307266/213343213-b8ef5e45-6677-47f2-b543-4fbf650807d3.png)
-![image](https://user-images.githubusercontent.com/121307266/213343504-6caef436-be7a-43ac-9a65-ae289ef73ecd.png)
-![image](https://user-images.githubusercontent.com/121307266/213343531-d7c90c64-58f6-4c81-bb3b-d8306aa8a56c.png)
+![image](https://user-images.githubusercontent.com/121307266/213888828-7fa930e6-eaed-4d9a-93e4-a289af941c37.png)
+![image](https://user-images.githubusercontent.com/121307266/213888835-63acc402-7007-4ed4-b47e-505e652a3153.png)
+![image](https://user-images.githubusercontent.com/121307266/213888846-14d2953c-c173-4b1b-b638-f435f7080b69.png)
+![image](https://user-images.githubusercontent.com/121307266/213888861-49b5dd77-4c8b-4009-a955-d3c9692988b1.png)
 
 
 ## Credits
