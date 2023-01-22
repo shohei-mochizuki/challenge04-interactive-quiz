@@ -23,6 +23,16 @@ let questions = { // Questions (*** Feel free to add/delete/modify!)
   ["82","wrong"], 
   ["98","correct"], 
   ["100","wrong"]],
+  "When you save data in your browser's local storage, what's the syntax to use?":
+  [["JSON.parse(localStorage.getItem('tag');","wrong"], 
+  ["JSON.stringfy(object);","correct"], 
+  ["localStorage.push(object)","wrong"], 
+  ["localStorage[tag] = object","wrong"]],
+  "Which of the following explanation is false? (select a false statement)":
+  [["array.length = get the length of the array","wrong"], 
+  ["array1.concat(array2) = merge two arrays","wrong"], 
+  ["array.push(data) = add data at the end of the array","wrong"], 
+  ["array.pop() = remove the first element from the array","correct"]]
 }
 let maxPoint = Object.keys(questions).length; // Total number of questions = Max possible point
 let questionNo; // Question number/index (0, 1, 2...)
