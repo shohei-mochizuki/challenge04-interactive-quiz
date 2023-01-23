@@ -72,7 +72,7 @@ function init (){
 
   let mainH3 = document.createElement("h3");
   mainH3.textContent = "Try to answer the following " 
-    + Object.keys(questions).length 
+    + maxPoint 
     + " questions within " 
     + timeGiven 
     + " seconds.";
@@ -197,7 +197,7 @@ function showQuestions(){
       window.setTimeout(showResult, 500);
     } else {
       // When the question is not the last one, wait for 0.5 seconds and then delete all <main> elements and move to the nexr question page.
-      if (questionNo < Object.keys(questions).length){
+      if (questionNo < maxPoint){
         window.setTimeout(deleteMain, 500);
         window.setTimeout(showQuestions, 500);
      // When this is the last question, stop the timer, wait for 0.5 seconds and then delete some <header> and all <main> elements and move to the result page.
@@ -225,7 +225,7 @@ function showResult (){
   mainH2.setAttribute("id", "mainH2");
 
   let mainH3 = document.createElement("h3");
-  mainH3.textContent = "Your score is " + score + " out of " + Object.keys(questions).length + "!";
+  mainH3.textContent = "Your score is " + score + " out of " + maxPoint + "!";
   document.body.children[1].children[0].appendChild(mainH3); 
   mainH3.setAttribute("id", "mainH3");
 
