@@ -13,7 +13,7 @@ let questions = { // Questions (*** Feel free to add/delete/modify!)
   ["Hot Teriyaki Mayo Lasagna","wrong"], // Answer option 2 for Question 1 & whether it's a correct answer or not
   ["High Tea Milk Latte","wrong"], // Answer option 3 for Question 1 & whether it's a correct answer or not
   ["Hi There My name is Lucy!","wrong"]], // Answer option 4 for Question 1 & whether it's a correct answer or not
-  "The main purpose of using CSS is _____":
+  "The main purpose of using CSS is _____ .":
   [["to get higher grade at school","wrong"], 
   ["to style websites and make them more attractive","correct"], 
   ["to make your engineer life hard","wrong"], 
@@ -80,7 +80,7 @@ function init (){
   mainH3.setAttribute("id", "mainH3");
 
   let mainH4 = document.createElement("h4");
-  mainH4.textContent = "⚠︎A wrong answer takes "
+  mainH4.textContent = "⚠︎ A wrong answer takes "
     + timeSubtract
     + " seconds from you!";
   document.body.children[1].children[0].appendChild(mainH4); 
@@ -182,7 +182,7 @@ function showQuestions(){
         score++;
       } else {
         let mainH3 = document.createElement("h3");
-        mainH3.textContent = "You're wrong!";
+        mainH3.textContent = "You're wrong! (-" + timeSubtract + " seconds!)";
         document.body.children[1].children[0].appendChild(mainH3);
         mainH3.setAttribute("class", "wrongAnswer");
         timeLeft = timeLeft - timeSubtract;

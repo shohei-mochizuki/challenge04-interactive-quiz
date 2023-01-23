@@ -1,5 +1,6 @@
 :root {
   --darkblue: rgb(2, 2, 155);
+  --lightblue: rgba(145, 200, 251, 0.877);
 }
 
 header {
@@ -134,4 +135,29 @@ h1 {
 .answerButton:hover {
   background-color: var(--darkblue);
   color: white;
+}
+
+#viewHS:hover {
+  background-color: var(--lightblue);
+  color: black;
+}
+
+#startButton:hover {
+  background-color: var(--lightblue);
+  color: black;
+}
+
+#submitButton:hover {
+  background-color: var(--lightblue);
+  color: black;
+}
+
+#backButton:hover {
+  background-color: var(--lightblue);
+  color: black;
+}
+
+#clearButton:hover {
+  background-color: var(--lightblue);
+  color: black;
 }
