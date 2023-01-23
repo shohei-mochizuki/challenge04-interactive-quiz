@@ -279,6 +279,10 @@ function getHS(){
   sortedKeyArray = [];
   sortedValueArray = [];
   dataHS = JSON.parse(localStorage.getItem("userScores"));
+  // If the data is null, define dataHS as an object
+  if (dataHS===null) {
+    dataHS = {};
+  }
   let keyArray = Object.keys(dataHS);
   let valueArray = Object.values(dataHS);
   let j = maxPoint;
